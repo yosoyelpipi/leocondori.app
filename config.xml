@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.leocondori.app"
+    id        = "com.decision.app"
     version   = "1.0.0">
 
 <name>Labbytes</name>
 
 <description>
-El laboratorio de Leo Condori, nació en Junio de 2010. Creando nuevos productos con el uso de las últimas tecnologías.
+Aplicación que conecta SQLSERVER o MySQL armando potentes informes gerenciales para la toma de decisiones. Primera aplicación del mercado.
 </description>
 <preference name="phonegap-version" value="3.0.0" />
 <preference name="orientation" value="portrait" />
@@ -21,7 +21,7 @@ El laboratorio de Leo Condori, nació en Junio de 2010. Creando nuevos productos
 <preference name="android-maxSdkVersion" value="19" />
 <preference name="permissions" value="none" />
 
-<author href="http://www.leocondori.com.ar" email="contacto@leocondori.com.ar">
+<author href="http://www.leocondori.com.ar" email="decision@leocondori.com.ar">
 Leonardo Condori
 </author>
 
