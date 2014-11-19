@@ -4,7 +4,7 @@
     id        = "com.decision.app"
     version   = "1.0.0">
 
-<name>Labbytes</name>
+<name>DECISION</name>
 
 <description>
 Aplicación que conecta SQLSERVER o MySQL armando potentes informes gerenciales para la toma de decisiones. Primera aplicación del mercado.
