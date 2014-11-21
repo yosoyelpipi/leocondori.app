@@ -95,6 +95,7 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- Leer datos externos -->
+	<!--Más sobre mí-->
 	<script type="text/javascript">
 	  $(document).ready(function(e) {
 		  
@@ -106,6 +107,27 @@
 		
 	  });
     </script>
+	
+	
+	<script>
+		document.addEventListener(“deviceready”, onDeviceReady, false);
+			function onDeviceReady(){
+				document.addEventListener("backbutton", GestionarBackButton, false);
+			}
+			function GestionarBackButton(){
+				alert(“Salir”);
+				navigator.notification.confirm(
+				‘¿Quieres salir de la aplicacion?!’, // message
+				onConfirm, // callback to invoke with index of button pressed
+				‘Salir’, // title
+				['Si','No'] // buttonLabels
+				);
+
+				function onConfirm(buttonIndex) {
+				navigator.app.exitApp();
+				}
+			}
+	</script>	
  
   </body>
 </html>
