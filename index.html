@@ -97,35 +97,28 @@
     <!-- Leer datos externos -->
 	<!--Más sobre mí-->
 	<script type="text/javascript">
-	  $(document).ready(function(e) {
-		  
+	  $(document).ready(function(e){
 		  $("#traer").click(function() {
 		  $('#loading').show();
-			$("#datos").load("http://www.mascotasvqr.com/mejoras/leo/test.php");	
-		  });
+		  $("#datos").load("http://www.mascotasvqr.com/mejoras/leo/test.php", {nombre: "Pepe", edad: 45});
+		  });		
+	    });
 		
-		
-	  });
-    </script>
-	
-	
-	<script>
 		document.addEventListener(“deviceready”, onDeviceReady, false);
 			function onDeviceReady(){
 				document.addEventListener("backbutton", GestionarBackButton, false);
 			}
 			function GestionarBackButton(){
 				alert(“Salir”);
-				navigator.notification.confirm(
-				‘¿Quieres salir de la aplicacion?!’, // message
-				onConfirm, // callback to invoke with index of button pressed
-				‘Salir’, // title
-				['Si','No'] // buttonLabels
-				);
-
-				function onConfirm(buttonIndex) {
-				navigator.app.exitApp();
-				}
+				  navigator.notification.confirm(
+				    ‘¿Quieres salir de la aplicacion?!’, // message
+				     onConfirm, // callback to invoke with index of button pressed
+				    ‘Salir’, // title
+				    ['Si','No'] // buttonLabels
+				  );
+				  function onConfirm(buttonIndex) {
+				    navigator.app.exitApp();
+				  }
 			}
 	</script>	
  
