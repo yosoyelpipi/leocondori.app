@@ -9,7 +9,7 @@
 <description>
 Aplicación que conecta SQLSERVER o MySQL armando potentes informes gerenciales para la toma de decisiones. Primera aplicación del mercado.
 </description>
-<preference name="phonegap-version" value="3.0.0" />
+<preference name="phonegap-version" value="3.6.3" />
 <preference name="orientation" value="portrait" />
 <preference name="fullscreen" value="true" />
 <icon src="img/icon_gde.png" />
