@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.decision.app"
+    id        = "com.leocondori.app"
     version   = "1.0.0">
 
-<name>Decisión</name>
+<name>Leo Condori</name>
 
 <description>
-Aplicación que conecta SQLSERVER o MySQL armando potentes informes gerenciales para la toma de decisiones. Primera aplicación del mercado.
+App de Leo Condori para conocer todo lo que sucede en el laboratorio de bytes.
 </description>
 <preference name="phonegap-version" value="3.6.3" />
 <preference name="orientation" value="portrait" />
@@ -21,7 +21,7 @@ Aplicación que conecta SQLSERVER o MySQL armando potentes informes gerenciales 
 <preference name="android-maxSdkVersion" value="19" />
 <preference name="permissions" value="none" />
 
-<author href="http://www.leocondori.com.ar" email="decision@leocondori.com.ar">
+<author href="http://www.leocondori.com.ar" email="contacto@leocondori.com.ar">
 Leonardo Condori
 </author>
 
